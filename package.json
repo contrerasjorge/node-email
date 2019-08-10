@@ -6,15 +6,22 @@
     "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi"
   },
   "dependencies": {
+    "bcrypt": "^3.0.3",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "express-session": "^1.15.6",
     "http-errors": "~1.6.3",
+    "lodash": "^4.17.11",
     "morgan": "~1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "pg": "^7.12.1",
     "pug": "^2.0.4",
     "sequelize": "^5.13.0",
-    "sequelize-cli": "^5.5.0"
+    "sequelize-cli": "^5.5.0",
+    "validator": "^10.11.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
