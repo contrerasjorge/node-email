@@ -21,7 +21,7 @@
     "pug": "^2.0.4",
     "sequelize": "^5.13.0",
     "sequelize-cli": "^5.5.0",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
